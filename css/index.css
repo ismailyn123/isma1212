@@ -1,0 +1,118 @@
+*{
+    background-color: rgba(187, 187, 189, 0.897);
+    justify-content: center;
+   }
+
+   .padre{
+    color: white;
+    display: flex;
+    align-items: end;
+    gap: 40px;
+   }
+
+   .hijo{
+       width: 25%;
+       height: 470px;
+       background-color: white;
+       display: flex;
+       flex-direction: column;
+       justify-content: start;
+       align-items: center; 
+   }
+
+   .hijod{
+       width: 25%;
+       height: 470px;
+       background-color: white;
+       align-self: flex-end;
+       display: flex;
+       flex-direction: column;
+       justify-content: start;
+       align-items: center;
+   }
+
+   .pEmojis{
+       background-color: white;
+       justify-content: center;
+      font-size: 26px;
+   }
+
+   .tituloAmarillo{
+       background-color: white;
+       color: rgb(15, 15, 15);
+       margin-top: -20px;
+   } 
+
+   .precio{
+       background-color: white;
+       color: #8ac9e6;
+       font-size: 20px;
+       margin-top: -10px; 
+   }
+   .hijo:hover .precio{
+    color:  gray;
+}
+.hijod:hover .precio2{
+    color:  gray;
+}
+
+   .texto{
+       background-color: white;
+       color: black;
+   }
+   
+   .pEmojis2{
+       background-color: white;
+       justify-content: center;
+      font-size: 15px;
+      margin-top: 20px;
+   }
+
+   .tituloAmarillo2{
+       background-color: rgb(255, 255, 255);
+       color: rgb(0, 0, 0);
+       margin-top: -15px;
+   } 
+
+   .precio2{
+       background-color: white;
+       color: rgb(118, 203, 236);
+       font-size: 20px;
+       margin-top: -10px; 
+   }
+
+   .texto2{
+       background-color: white;
+       color: black;
+       margin-top: -15px;
+       width: 65%;
+   }
+
+   .etia{
+       background-color: rgb(118, 203, 236);
+       color: black;
+       width: 100%;
+       text-align: center;
+       height: 100px;
+       text-decoration: none;
+       justify-content: center;
+       align-items: center;
+       padding-top: 20px;
+   }
+
+.hijo:hover .etia{
+    background-color: gray;
+}
+
+.hijod:hover .etia{
+    background-color: gray;
+}
+
+   .colorfondo{
+    background-color: white;
+    color: black;
+   }
+
+   .lulu{
+    color: rgb(255, 166, 0);
+}
